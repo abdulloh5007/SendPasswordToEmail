@@ -100,10 +100,10 @@ frm.addEventListener('submit', (e) => {
 function Mail() {
   Email.send({
     Host : "smtp.elasticemail.com",
-    Username : "abdulloh50007@gmail.com",
-    Password : "D1F934CC9A44327037D2FB13FE1EB0717534",
+    Username : "levou070@gmail.com",
+    Password : "83813C95199882C0C8153494DE126D889990",
     To : inp2.value,
-    From : "abdulloh50007@gmail.com",
+    From : "levou070@gmail.com",
     Subject : 'Password',
     Body : emailBody,
   }).then(
@@ -125,20 +125,20 @@ function Mail() {
   }, 4000);
 }
 
-const btnProver = document.querySelector('.btnProver')
+// const btnProver = document.querySelector('.btnProver')
 
-btnProver.addEventListener('click', () => {
-  const h3 = document.querySelector('.proverkaH3')
-  if(proverka.value == randomNumberSpace) {
-    console.log('ok');
-    h3.textContent = 'Tekshiruv muvaffaqiyatlik bilan tugadi'
-    h3.style.color = 'green'
-    h3.hidden = false
-  }
-  else{
-    console.log('error');
-    h3.textContent = 'Hato'
-    h3.style.color = 'red'
-    h3.hidden = false
-  }
-})
+// btnProver.addEventListener('click', () => {
+//   const h3 = document.querySelector('.proverkaH3')
+//   if(proverka.value == randomNumberSpace) {
+//     console.log('ok');
+//     h3.textContent = 'Tekshiruv muvaffaqiyatlik bilan tugadi'
+//     h3.style.color = 'green'
+//     h3.hidden = false
+//   }
+//   else{
+//     console.log('error');
+//     h3.textContent = 'Hato'
+//     h3.style.color = 'red'
+//     h3.hidden = false
+//   }
+// })
